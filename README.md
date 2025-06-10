@@ -19,13 +19,13 @@ Provisional format
 It will be soon expanded. Table contains descriptive metadata of each of texts, directive metadata and internat metadata for processing reasons, structural description of processed title (specific model organisation units, chapters and paragraphs), bibliography and holder metadata.
 
 ### Descriptive metadata
-
+'''
 id	      - identification of work <integer>
 group_id	- identification of periodical group <integer>
-title_author	
 
+title_author	
 title_lang
-title_type	
+title_typ
 title_genre	
 ed_type
 name_tid	
@@ -39,27 +39,28 @@ name_short
 name_short_la	
 name_version	
 name_full	note
-
+'''
 ### Directive metadata
-
+'''
 corpus_added - identification of participation in corpus	<boolean> (mainly for works in preparation)
-
+'''
 ### Internal metadata
+'''
 obj_loc	
 obj_change	- last change of object, ISO 8601
-obj_lemm_udp - versions of UDP segmentation processing unit
-
+obj_lemm_udp - versions of UDP segmentation processing unit, tokens and sentences qual. dependent
+'''
 ### Title structure
 
 Warning: dependent on specific structuration of work during its digitisation. Only pars and tokens respect physical outlook of title instance.
-
-struct_ou	
-struct_lib	
-struct_pars	
-struct_tok	
-
+'''
+struct_ou	- organisational units
+struct_lib	- books - chapters, dependent
+struct_pars	- paragraphs in edition
+struct_tok	- tokens after preprocessing
+'''
 ## Bibliography and holder metadata
-
+'''
 act_rl_ed	
 act_rl_trs	
 act_pubname	
@@ -77,6 +78,6 @@ orig_ext
 digi_aut	
 accessed_last	
 lc_ref	
-
+'''
 
 
