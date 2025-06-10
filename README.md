@@ -1,6 +1,8 @@
 # alchcorp
 Medieval alchemical corpus metadata
 
+https://zenodo.org/records/15630063
+
 ## Content
 
 Contains metadata for used texts in:
