@@ -38,7 +38,8 @@ year_act_tmp
 name_short	
 name_short_la	
 name_version	
-name_full	note
+name_full
+note      - commentary
 ```
 ### Directive metadata
 ```
